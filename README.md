@@ -1,7 +1,6 @@
-```md
 # CO3001 Tutor Support System
 
-## 📌 Overview
+## Overview
 **CO3001 Tutor Support System** is a web-based application designed to support interactions between **Students** and **Tutors**.  
 This project was developed as part of the *CO3001 – Software Engineering* course at Ho Chi Minh City University of Technology (HCMUT).
 
@@ -9,7 +8,7 @@ The system allows users to register accounts, browse tutors, schedule tutoring s
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Provide a platform for students to easily find suitable tutors  
 - Support scheduling and management of tutoring sessions  
 - Enable feedback and evaluation of tutors  
@@ -17,7 +16,7 @@ The system allows users to register accounts, browse tutors, schedule tutoring s
 
 ---
 
-## 🛠️ Technologies Used
+## echnologies Used
 
 | Component  | Technology |
 |-----------|------------|
@@ -29,7 +28,7 @@ The system allows users to register accounts, browse tutors, schedule tutoring s
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -46,7 +45,7 @@ The system allows users to register accounts, browse tutors, schedule tutoring s
 
 ---
 
-## 🚀 Installation and Run
+## Installation and Run
 
 ### 1. Clone the repository
 ```bash
@@ -85,36 +84,36 @@ http://127.0.0.1:8000/
 
 ---
 
-## 🧩 Main Features
+## Main Features
 
-### 🔐 Authentication
+### Authentication
 
 * User registration (Student / Tutor)
 * Login & logout
 * Account management
 
-### 🎓 Student Features
+### Student Features
 
 * View tutor list
 * Search tutors
 * Book tutoring sessions
 * View session history
 
-### 👨‍🏫 Tutor Features
+### Tutor Features
 
 * Manage availability
 * Accept or reject tutoring sessions
 * View assigned students
 * Receive feedback
 
-### 📝 Feedback & Management
+### Feedback & Management
 
 * Rate tutors after sessions
 * Track tutoring sessions
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Implement RESTful APIs
 * Advanced tutor filtering (subjects, price, ratings)
@@ -124,7 +123,7 @@ http://127.0.0.1:8000/
 
 ---
 
-## 👤 Authors
+## Authors
 
 **CO3001 Project Team**
 Ho Chi Minh City University of Technology – VNU-HCM
@@ -133,7 +132,7 @@ Course: CO3001 – Software Engineering
 
 ---
 
-## 📄 License
+## License
 
 This project is developed for **educational purposes only**.
 
