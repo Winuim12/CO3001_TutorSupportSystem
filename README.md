@@ -135,5 +135,3 @@ Course: CO3001 – Software Engineering
 ## License
 
 This project is developed for **educational purposes only**.
-
-```
