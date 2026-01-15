@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutor Support System</title>
+  <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+  <div class="header">
+    Site name
+  </div>
+
+  <div class="main-content">
+    <div class="login-card">
+      <div class="logo">
+        <img src="{% static 'images/logobachkhoa.png' %}" alt="BK HCMUT Logo">
+      </div>
+      
+      <h2>TUTOR SUPPORT SYSTEM</h2>
+      
+      <p class="login-info">Log in using your account on:</p>
+      
+      <form action="{% url 'sso_login' %}" method="get">
+        <button type="submit" class="login-button">
+          <img src="{% static 'images/logobachkhoa.png' %}" alt="HCMUT">
+          HCMUT account
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    Site name
+  </div>
+</body>
+</html>

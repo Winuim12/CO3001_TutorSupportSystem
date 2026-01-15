@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central Authentication Service</title>
+  <link rel="stylesheet" href="{% static 'css/hcmut_sso.css' %}">
+</head>
+<body>
+  <div class="header">
+    <img src="{% static 'images/logobachkhoa.png' %}" alt="CAS Logo">
+    <h1>Central Authentication Service</h1>
+  </div>
+  
+  <div class="main-content">
+    <div class="login-container {% if error %}has-error{% endif %}">
+      <div class="login-body">
+        <form method="POST">
+          {% csrf_token %}
+          {% if error %}
+          <div class="error-message">{{ error }}</div>
+          {% endif %}
+          <h2>Enter your Username and Password</h2>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          
+          <div class="button-group">
+            <button type="submit" class="btn btn-login">Login</button>
+            <button type="reset" class="btn btn-clear">Clear</button>
+            <button type="button" class="btn btn-cancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    Site name
+  </div>
+</body>
+</html>
